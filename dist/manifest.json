@@ -1,0 +1,95 @@
+[
+  {
+    "id": "diagnostic",
+    "tapeName": "SRDIAG",
+    "tests": 5,
+    "loadAddress": 57344,
+    "machineBytes": 1389,
+    "wavSeconds": 57.36,
+    "peakDbFS": -1,
+    "files": {
+      "bin": {
+        "path": "dist/p60gue-sr-diagnostic.bin",
+        "bytes": 1389,
+        "sha256": "7a6b9cf3b0797cab9b39c41e796520236bd44fb195c287b488a2e74c7a990387"
+      },
+      "bas": {
+        "path": "dist/p60gue-sr-diagnostic.bas",
+        "bytes": 5604,
+        "sha256": "04046527daec324119ed76dba2fe5c6c797b74ee2532518fe7c2fc894cc6f3f7"
+      },
+      "cmt": {
+        "path": "dist/p60gue-sr-diagnostic.cmt",
+        "bytes": 5236,
+        "sha256": "b56885d8b593dae67352b0a12419c437aa4c39bad36f0fdaa1ff0ef4df035f32"
+      },
+      "wav": {
+        "path": "dist/p60gue-sr-diagnostic.wav",
+        "bytes": 5506604,
+        "sha256": "2fe6750b4ec167b07db04c5bbc012ca0b5d5d0231656025ecd1325eb53e5027a"
+      }
+    }
+  },
+  {
+    "id": "ports",
+    "tapeName": "SRPORT",
+    "tests": 5,
+    "loadAddress": 57344,
+    "machineBytes": 1315,
+    "wavSeconds": 54.47,
+    "peakDbFS": -1,
+    "files": {
+      "bin": {
+        "path": "dist/p60gue-sr-ports.bin",
+        "bytes": 1315,
+        "sha256": "b863295fbddfa5bbbbb2ab4f480d889719af172b56566023522b95011af1cc3d"
+      },
+      "bas": {
+        "path": "dist/p60gue-sr-ports.bas",
+        "bytes": 5299,
+        "sha256": "9cac48e0d78533cf10ddc6c4a9196e2b3497cc7bd0a8d6c22333a208f5ceb565"
+      },
+      "cmt": {
+        "path": "dist/p60gue-sr-ports.cmt",
+        "bytes": 4947,
+        "sha256": "629c5d832b4b34856e2e2480ca4f4386064427358787824786ef6090a6395b15"
+      },
+      "wav": {
+        "path": "dist/p60gue-sr-ports.wav",
+        "bytes": 5229164,
+        "sha256": "d4b94b03befe16b235653415cb982dd09c4e1567649204acac9a6379aa90052f"
+      }
+    }
+  },
+  {
+    "id": "f3",
+    "tapeName": "SRF3V3",
+    "tests": 9,
+    "loadAddress": 57344,
+    "machineBytes": 1394,
+    "wavSeconds": 59.15,
+    "peakDbFS": -1,
+    "files": {
+      "bin": {
+        "path": "dist/p60gue-sr-f3.bin",
+        "bytes": 1394,
+        "sha256": "ba274d6b75b16362387a2abaee6029623b18873dd1a1828ed58cf5b8eae0f6f3"
+      },
+      "bas": {
+        "path": "dist/p60gue-sr-f3.bas",
+        "bytes": 5810,
+        "sha256": "996dfa0dcc0c013232211d65475c747c17ec25646512ee9baad58858e8a390fa"
+      },
+      "cmt": {
+        "path": "dist/p60gue-sr-f3.cmt",
+        "bytes": 5415,
+        "sha256": "4d9a50011ea9e7526616582a3ef32e68e9fb36ebfca7e357834d3f833e4968c2"
+      },
+      "wav": {
+        "path": "dist/p60gue-sr-f3.wav",
+        "bytes": 5678444,
+        "sha256": "8bd956fafa42010de1245d714f29717c049a7604e1473a4b6b8f3304e415c34f"
+      }
+    }
+  }
+]

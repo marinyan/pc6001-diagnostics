@@ -1,0 +1,12 @@
+{
+  "name": "pc6001-diagnostics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tests/distribution.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}

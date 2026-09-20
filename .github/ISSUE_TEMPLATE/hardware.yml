@@ -1,0 +1,45 @@
+name: 実機の診断結果
+description: 成功・黒画面・ロード失敗のいずれも報告できます
+title: "[実機] 機種 / 診断セット"
+body:
+  - type: input
+    id: machine
+    attributes:
+      label: 機種と起動条件
+      placeholder: PC-6601SR、モード5、画面3ページ
+    validations:
+      required: true
+  - type: dropdown
+    id: suite
+    attributes:
+      label: 診断セット
+      options:
+        - F3 V3（SRF3V3）
+        - Ports V2（SRPORT）
+        - 初期診断（SRDIAG）
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: テスト番号と結果
+      description: 番号／EXEC／表示／点滅／繰り返し回数を記載。未実施も区別してください。
+      placeholder: "1: 表示あり、点滅あり。2: EXEC直後に黒画面、2回とも同じ。"
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: 接続・ROM・再生環境
+      description: 分かる範囲でROMの版や交換の有無、拡張機器、表示接続、再生機器・ソフト・音量設定。
+  - type: textarea
+    id: loading
+    attributes:
+      label: ロードとリセット
+      description: Found表示、CLOAD/RUNのエラー、毎回リセットしたか、電源再投入との違い。
+  - type: textarea
+    id: evidence
+    attributes:
+      label: WAVの版・写真・補足
+      description: ダウンロードしたリリース名やSHA-256が分かれば記載。写真や短い動画も歓迎。
